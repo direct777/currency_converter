@@ -1,0 +1,18 @@
+# Ignore target directory except the final jar
+target/*
+!target/*.jar
+
+# Ignore Maven build directories
+.mvn/
+.mvn/**
+
+# Ignore version control directories
+.git/
+.git/**
+
+# Ignore IDE/editor specific files
+.vscode/
+
+# Ignore test-related files
+test/
+test-classes/
